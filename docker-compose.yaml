@@ -1,0 +1,10 @@
+---
+version: '2.2'
+
+services:
+  artifactory:
+    image: hmcts/cnp-artifactory:latest
+    cpus: 2.5
+    mem_limit: 2048M
+    ports:
+      - 8081:8081
